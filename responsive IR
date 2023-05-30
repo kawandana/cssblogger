@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f1f1f1;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+padding: 0;
+background-color: #f5f5f5;
+font-family: Arial, sans-serif;
 }
 
 .content {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+background-color: #fff;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  font-size: 24px;
-  margin-top: 0;
+font-size: 48px;
+color: #333;
+margin-bottom: 10px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 p {
-  font-size: 16px;
+font-size: 18px;
+color: #666;
+margin-bottom: 10px;
+line-height: 1.4;
 }
 
 .whatsapp-box {
@@ -30,13 +38,19 @@ p {
 }
 
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
 
 .footer {
   margin-top: 20px;
