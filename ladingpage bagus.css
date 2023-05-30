@@ -1,0 +1,76 @@
+/* CSS untuk foto profil */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url("URL_GAMBAR_PROFIL");
+  background-position: center;
+  background-size: cover;
+}
+
+/* CSS untuk latar belakang */
+.background {
+  background-image: url("URL_GAMBAR_LATAR_BELAKANG");
+  background-position: center;
+  background-size: cover;
+}
+
+/* CSS untuk deskripsi */
+.description {
+  text-align: center;
+  margin: 20px;
+  color: #ffffff;
+}
+
+/* CSS untuk nama */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* CSS untuk nomor WhatsApp */
+.whatsapp-link {
+  display: inline-block;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+/* CSS untuk link-link berbaris */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CSS untuk link individual */
+.links a {
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/* CSS responsif */
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .name {
+    font-size: 20px;
+  }
+  
+  .whatsapp-link {
+    font-size: 16px;
+  }
+  
+  .links a {
+    font-size: 14px;
+  }
+}
